@@ -1248,6 +1248,30 @@
         margin-bottom: 20px;
     }
     
+    .contact-item a {
+        color: #878787;
+        transition: all 0.2s ease-in-out;
+    }
+    
+    .contact-item a:hover {
+        color: #56cfe1;
+        transition: all 0.2s ease-in-out;
+    }
+    
+    .contact-item p {
+        color: #878787;
+    }
+    
+    .contact-item i {
+        color: #878787;
+        transition: all 0.2s ease-in-out;
+    }
+    
+    .contact-item a:hover i {
+        color: #56cfe1;
+        transition: all 0.2s ease-in-out;
+    }
+    
     .footer-item {
         padding: 0px 50px;
     }
@@ -1291,16 +1315,23 @@
         cursor: pointer;
         position: absolute;
         top: 50%;
-        left: 50%;
+        left: 100%;
         transform: translate(-50%, -50%);
         z-index: 3;
-        color: #222;
+        color: #fff;
         line-height: 40px;
-        background-color: #fff;
+        background-color: #000;
         padding: 0 25px;
         text-align: center;
         border: none;
         border-radius: 40px;
+        width: 140px;
+        transition: all 0.2s ease-in-out;
+    }
+    
+    form button:hover {
+        background-color: #56cfe1 !important;
+        transition: all 0.2s ease-in-out;
     }
     
     form button:hover {
